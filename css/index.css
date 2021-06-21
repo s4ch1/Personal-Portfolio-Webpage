@@ -3,8 +3,8 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    font-family: 'Dela Gothic One', cursive;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav{
@@ -52,16 +52,14 @@ nav ul a:hover{
 }
 
 h1{
-    font-size: 50px;
-    font-family: 'Dela Gothic One', cursive;
-    /* text-shadow: 0 0 5px black; */
+    font-size: 90px;
     color: white;
 }
 
 #welcome-section h2{
-    font-size: 30px;
-    /* text-shadow: 0 0 5px black; */
-    color: white;
+    font-size: 70px;
+    color: #21C7DB;
+    font-family: 'Caveat', cursive;
 }
 
 #projects{
@@ -80,6 +78,11 @@ h1{
     color: black;
 }
 
+#projects h3{
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+
 img{
     padding: 20px;
 }
@@ -87,7 +90,7 @@ img{
 a{
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #contact{
@@ -96,13 +99,13 @@ a{
     text-align: center;
 }
 
-#contact h4{
-    font-size: 30px;
+#contact h2{
+    color: #21C7DB;
+    font-family: 'Caveat', cursive;
 }
 
 #contact a{
-    padding: 10px;
-    font-size: 25px;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 600px){ 
@@ -137,14 +140,18 @@ a{
         font-size: 20px;
     }
 
+    #projects h3{
+        font-size: 15px;
+    }
+
     a{
         font-size: 15px;
     }
-    
-    #contact h4{
-        font-size: 15px;
+
+    #contact img{
+        padding: 3px;
+        height: 40px;
+        width: 40px;
     }
-    #contact a{
-        font-size: 12px;
-    }
+
 }
